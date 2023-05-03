@@ -18,7 +18,51 @@ html {
 
 header {
     height: 100vh;
-    background-image: url(img/img-hero-header.png);
+    background-image: linear-gradient(rgb(0, 0, 0,0.1), 
+    rgba(0,0,0,0.9)), url(img/img-hero-header.png);
     background-size: cover;
     background-position: center;
 }
+
+.hero-text-box{
+    position: absolute;
+    top: 40%;
+    left: 4%;
+}
+
+header h1{
+    margin: 0;
+    color: #fff;
+    font-weight: 300;
+    word-spacing: 7px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.btn:link, 
+.btn:visited{
+    border: solid orange;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.btn-full{
+    background-color: orange;
+    color: #fff;
+}
+
+.btn-ghost{
+    color: orange;
+}
+
+
+
+
+
+
