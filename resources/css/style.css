@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* facilita o dimensionamento dos elementos
+    dizendo que a borda do elemento pertence ao
+    tamanho total deste */
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff; /*Define a cor do fundo*/
+    color: #555;
+    font-family: 'Poppins', 'Arial', sans-serif; /*a terceira opção é qualquer fonte daquela família, note que o nome da família não esta entre aspas.*/
+    font-weight: 300; /*de acordo com a fonte que importamos*/
+    font-size: 20px;
+    text-rendering: optimizeLegibility; /*otimiza a renderização da fonte para letura, tendo uma melhor qualidade*/
+}
+
+header {
+    height: 100vh;
+    background-image: url(img/img-hero-header.png);
+    background-size: cover;
+    background-position: center;
+}
